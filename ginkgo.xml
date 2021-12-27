@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Device trees -->
+    <project name="PixelOS-Devices/device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="github" revision="twelve" />
+
+    <!-- Vendor trees -->
+    <project name="ArrowOS-Devices/android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="github" revision="arrow-12.0" />
+
+    <!-- Kernel tree and Clang -->
+    <project name="ArrowOS-Devices/android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="github" revision="arrow-12.0" clone-depth="1" />
+    <project name="ThankYouMario/proprietary_vendor_qcom_sdclang" path="prebuilts/clang/host/linux-x86/clang-sdllvm" remote="github" revision="ruby-12" clone-depth="1" />
+    
+    <!-- MIUI Camera -->
+    <project name="ArrowOS-Devices/android_vendor_miuicamera" path="vendor/miuicamera" remote="github" revision="arrow-12.0-a3" />
+    
+    <!-- Custom Repos --> 
+    <remove-project name="frameworks_base" />
+    <remove-project name="packages_apps_Settings" />
+    <remove-project name="vendor_aosp" />
+    <remove-project name="build" />
+    <remove-project name="device_qcom_sepolicy_vndr" />
+    <remove-project name="device_qcom_sepolicy" />
+    <remove-project name="frameworks_native" />
+    
+    <project path="frameworks/base" name="PixelOS-Pixelish/frameworks_base" remote="github" revision="twelve" />
+    <project path="packages/apps/Settings" name="PixelOS-Pixelish/packages_apps_Settings" remote="github" revision="twelve" />
+    <project path="vendor/aosp" name="PixelOS-Pixelish/vendor_aosp" remote="github" revision="twelve" />
+    <project path="device/qcom/sepolicy_vndr" name="PixelOS-Pixelish/device_qcom_sepolicy_vndr" remote="github" revision="twelve"/>
+    <project path="vendor/overlays" name="PixelOS-Pixelish/vendor_custom_overlay" remote="github" revision="twelve" />  
+    <project path="device/qcom/sepolicy" name="ArrowOS/android_device_qcom_sepolicy" remote="github" revision="arrow-12.0" />
+    <project path="frameworks/native" name="PixelOS-Pixelish/frameworks_native" remote="github" revision="twelve" />
+    <project path="build/make" name="PixelOS-Pixelish/build" remote="github" revision="twelve">
+      <copyfile src="core/root.mk" dest="Makefile" />
+      <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+      <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+      <linkfile src="core" dest="build/core" />
+      <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+      <linkfile src="target" dest="build/target" />
+      <linkfile src="tools" dest="build/tools" />
+    </project>
+    
+    <!-- Custom Hals -->
+    <remove-project name="hardware_qcom-caf_sm8150_display" />
+    <remove-project name="hardware_qcom-caf_sm8150_media" />
+    <remove-project name="hardware_qcom-caf_sm8150_audio" />
+     
+    <project path="hardware/qcom-caf/sm8150/audio" name="ArrowOS/android_hardware_qcom_audio" remote="github" revision="arrow-12.0-caf-sm8150" />
+    <project path="hardware/qcom-caf/sm8150/display" name="ArrowOS/android_hardware_qcom_display" remote="github" revision="arrow-12.0-caf-sm8150"  />
+    <project path="hardware/qcom-caf/sm8150/media" name="ArrowOS/android_hardware_qcom_media" remote="github" revision="arrow-12.0-caf-sm8150"  />
+    
+</manifest>
