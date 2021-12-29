@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Device trees -->
+    <project name="PixelOS-Devices/device_xiaomi_sweet" path="device/xiaomi/sweet" remote="github" revision="twelve" />
+
+    <!-- Vendor trees -->
+    <project name="PixelOS-Devices/vendor_xiaomi_sweet" path="vendor/xiaomi/sweet" remote="github" revision="twelve" />
+
+    <!-- Kernel tree and Clang -->
+    <project name="vantoman/kernel_xiaomi_sm6150" path="kernel/xiaomi/sweet" remote="github" revision="courbet" clone-depth="1" />
+    <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" clone-depth="1" />                                                                                                            
+</manifest>
