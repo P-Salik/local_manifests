@@ -4,3 +4,4 @@
 | mojito/sunny | Redmi Note 10 | Android 12 | [mojito-s](https://github.com/PixelOS-Devices/local_manifests/tree/mojito-s) |
 | ulysse | Redmi Note 5A | Android 12 | [ulysse-s](https://github.com/PixelOS-Devices/local_manifests/tree/ulysse-s) | 
 | violet | Redmi Note 7 Pro | Android 12 | [violet-s](https://github.com/PixelOS-Devices/local_manifests/tree/violet-s) | 
+| sweet | Redmi Note 10 Pro | Android 12 | [sweet-s](https://github.com/PixelOS-Devices/local_manifests/tree/sweet-s) | 
