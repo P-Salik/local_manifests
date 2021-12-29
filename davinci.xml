@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Device trees -->
+    <project name="PixelOS-Devices/device_xiaomi_davinci" path="device/xiaomi/davinci" remote="github" revision="twelve" />
+    <project name="PixelOS-Devices/device_xiaomi_sm6150-common_davinci" path="device/xiaomi/sm6150-common" remote="github" revision="twelve" />
+
+    <!-- Vendor trees -->
+    <project name="PixelOS-Devices/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="twelve" />
+
+    <!-- Kernel tree -->
+    <project name="PixelOS-Devices/kernel_xiaomi_sm6150" path="kernel/xiaomi/sm6150" remote="github" revision="twelve" />
+
+    <!--  Device Settings  -->
+    <remove-project name="packages_resources_devicesettings" />
+    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-19.0" />
+
+    <!-- Custom Repos-->
+    <project name="AOSPK/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="twelve" />
+
+</manifest>
