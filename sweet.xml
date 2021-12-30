@@ -8,5 +8,9 @@
 
     <!-- Kernel tree and Clang -->
     <project name="vantoman/kernel_xiaomi_sm6150" path="kernel/xiaomi/sweet" remote="github" revision="courbet" clone-depth="1" />
-    <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" clone-depth="1" />                                                                                                            
+    <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" clone-depth="1" />
+
+    <!-- Custom Repos -->
+    <remove-project name="system_sepolicy" />
+    <project path="system/sepolicy" name="bheatleyyy/android_system_sepolicy" remote="github" revision="arrow-12.0" />                                                                                             
 </manifest>
