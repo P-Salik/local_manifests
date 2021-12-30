@@ -9,7 +9,7 @@
     <project name="PixelOS-Devices/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="twelve" />
 
     <!-- Kernel tree -->
-    <project name="vantoman/kernel_xiaomi_sm6150" path="kernel/xiaomi/sm6150" remote="github" revision="12" />
+    <project name="vantoman/kernel_xiaomi_sm6150" path="kernel/xiaomi/sm6150" remote="github" revision="12" clone-depth="1" />
 
     <!--  Device Settings  -->
     <remove-project name="packages_resources_devicesettings" />
