@@ -9,7 +9,7 @@
     <project name="cristianvaz/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="12.0" />
 
     <!-- Kernel tree -->
-    <project name="GZR-Kernels/Optimus_Drunk_Alioth" path="kernel/xiaomi/sm8250" remote="github" revision="11.0" />
+    <project name="GZR-Kernels/Optimus_Drunk_Alioth" path="kernel/xiaomi/sm8250" remote="github" revision="11.0" clone-depth="1"  />
     
     <!--  Device Settings  -->
     <remove-project name="packages_resources_devicesettings" />
