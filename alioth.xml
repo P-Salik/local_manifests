@@ -13,7 +13,7 @@
     
     <!--  Device Settings  -->
     <remove-project name="packages_resources_devicesettings" />
-    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-18.1" />
+    <project name="PixelOS-Devices/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-18.1" />
     
      <!-- Custom Repos -->
     <remove-project name="hardware_qcom-caf_sm8250_display" />
