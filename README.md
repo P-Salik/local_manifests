@@ -7,3 +7,4 @@
 | sweet | Redmi Note 10 Pro | Android 12 | [sweet-s](https://github.com/PixelOS-Devices/local_manifests/tree/sweet-s) | 
 | gauguin | Redmi Note 9 Pro 5G/Mi 10i 5G/Mi 10T Lite | Android 12 | [gauguin-s](https://github.com/PixelOS-Devices/local_manifests/tree/gauguin-s) | 
 | davinci | Redmi K20/Mi 9T | Android 12 | [davinci-s](https://github.com/PixelOS-Devices/local_manifests/tree/davinci-s)
+| alioth | Poco F3/Mi 11X/Redmi K40 | Android 12 | [alioth-s](https://github.com/PixelOS-Devices/local_manifests/tree/alioth-s)
