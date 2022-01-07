@@ -9,6 +9,14 @@
     <!-- Kernel tree -->
     <project name="PixelOS-Devices/kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" remote="github" revision="twelve" clone-depth="1" />
   
+    <!-- remove existing hals and add new sm8150 hals -->
+    <remove-project name="hardware_qcom-caf_sm8150_media" />
+    <remove-project name="hardware_qcom-caf_sm8150_audio" />
+    <remove-project name="hardware_qcom-caf_sm8150_display" />
+    <project path="hardware/qcom-caf/sm8150/display" name="Test-Roms/android_hardware_qcom_display" remote="github" revision="s-caf-sm8150" />
+    <project path="hardware/qcom-caf/sm8150/media" name="Test-Roms/android_hardware_qcom_media" remote="github" revision="s-caf-sm8150" />
+    <project path="hardware/qcom-caf/sm8150/audio" name="Test-Roms/android_hardware_qcom_audio" remote="github" revision="s-caf-sm8150" />
+    
     <!-- hardware/xiaomi -->
     <project name="ArrowOS-Devices/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="arrow-12.0" />
 </manifest>
