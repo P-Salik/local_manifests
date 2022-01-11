@@ -12,7 +12,7 @@
     <project name="PixelOS-Devices/vendor_xiaomi_sm6150-common" path="vendor/xiaomi/sm6150-common" remote="ssh" revision="twelve" />
 
     <!-- Kernel tree -->
-    <project name="Neternels/android_kernel_xiaomi_mojito" path="kernel/xiaomi/sm6150" remote="github" revision="inline" clone-depth="1" />
+    <project name="Neternels/android_kernel_xiaomi_mojito" path="kernel/xiaomi/sm6150" remote="github" revision="LA.UM.9.1" clone-depth="1" />
     <project name="StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" path="prebuilts/gcc/linux-x86/aarch64/arm64-gcc" remote="ssh" revision="12.0.0" clone-depth="1" />
     <project name="StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi" path="prebuilts/gcc/linux-x86/arm/arm-eabi" remote="ssh" revision="12.0.0" clone-depth="1"  />
 
