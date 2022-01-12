@@ -9,3 +9,5 @@
 | davinci | Redmi K20/Mi 9T | Android 12 | [davinci-s](https://github.com/PixelOS-Devices/local_manifests/tree/davinci-s)
 | alioth | Poco F3/Mi 11X/Redmi K40 | Android 12 | [alioth-s](https://github.com/PixelOS-Devices/local_manifests/tree/alioth-s)
 | vayu/bhima | Poco X3 Pro | Android 12 | [vayu-s](https://github.com/PixelOS-Devices/local_manifests/tree/vayu-s)
+| mido | Redmi Note 4/4x | Android 12 | [mido-s](https://github.com/PixelOS-Devices/local_manifests/tree/mido-s)
+
