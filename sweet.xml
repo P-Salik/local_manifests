@@ -12,5 +12,7 @@
 
     <!-- Custom Repos -->
     <remove-project name="system_sepolicy" />
-    <project path="system/sepolicy" name="bheatleyyy/android_system_sepolicy" remote="github" revision="arrow-12.0" />                                                                                             
+    <remove-project name="frameworks_av" />
+    <project path="system/sepolicy" name="bheatleyyy/android_system_sepolicy" remote="github" revision="arrow-12.0" />
+    <project path="frameworks/av" name="crDroidandroid/android_frameworks_av" remote="github" revision="12.0" />
 </manifest>
