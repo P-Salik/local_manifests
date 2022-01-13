@@ -4,7 +4,7 @@
     <project name="PixelOS-Devices/device_xiaomi_vayu" path="device/xiaomi/vayu" remote="github" revision="twelve" />
     
     <!-- Vendor trees -->
-    <project name="kleidione/vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" remote="github" revision="twelve" />
+    <project name="PixelOS-Devices/vendor_xiaomi_vayu" path="vendor/xiaomi/vayu" remote="github" revision="twelve" />
 
     <!-- Kernel tree -->
     <project name="PixelOS-Devices/kernel_xiaomi_vayu" path="kernel/xiaomi/vayu" remote="github" revision="twelve" clone-depth="1" />
