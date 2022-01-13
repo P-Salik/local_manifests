@@ -16,4 +16,8 @@
 
     <!-- Ant radio library -->
     <project name="PixelExperience/external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="github" revision="twelve" />
+
+    <!-- Lineage OS settings resources -->
+    <remove-project name="packages_resources_devicesettings" />
+    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-19.0" />
 </manifest>
