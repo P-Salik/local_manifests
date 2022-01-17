@@ -4,7 +4,7 @@
     <remote  name="ssh" fetch="ssh://git@github.com" />
 
     <!-- Device trees -->
-    <project name="PixelOS-Devices/device_xiaomi_mojito" path="device/xiaomi/mojito" remote="ssh" revision="twelve" />
+    <project name="PixelOS-Devices/device_xiaomi_mojito" path="device/xiaomi/mojito" remote="ssh" revision="twelve-vbswap" />
     <project name="PixelOS-Devices/device_xiaomi_sm6150-common" path="device/xiaomi/sm6150-common" remote="ssh" revision="twelve" />
 
     <!-- Vendor trees -->
@@ -12,7 +12,7 @@
     <project name="PixelOS-Devices/vendor_xiaomi_sm6150-common" path="vendor/xiaomi/sm6150-common" remote="ssh" revision="twelve" />
 
     <!-- Kernel tree -->
-    <project name="PixelOS-Devices/android_kernel_xiaomi_mojito" path="kernel/xiaomi/sm6150" remote="github" revision="twelve" clone-depth="1" />
+    <project name="PixelOS-Devices/android_kernel_xiaomi_mojito" path="kernel/xiaomi/sm6150" remote="github" revision="twelve-vbswap" clone-depth="1" />
     <project name="StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" path="prebuilts/gcc/linux-x86/aarch64/arm64-gcc" remote="ssh" revision="12.0.0" clone-depth="1" />
     <project name="StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi" path="prebuilts/gcc/linux-x86/arm/arm-eabi" remote="ssh" revision="12.0.0" clone-depth="1"  />
 
