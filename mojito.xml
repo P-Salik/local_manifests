@@ -15,6 +15,9 @@
     <project name="PixelOS-Devices/android_kernel_xiaomi_mojito" path="kernel/xiaomi/sm6150" remote="github" revision="twelve-vbswap" clone-depth="1" />
     <project name="StatiXOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" path="prebuilts/gcc/linux-x86/aarch64/arm64-gcc" remote="ssh" revision="12.0.0" clone-depth="1" />
     <project name="StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-eabi" path="prebuilts/gcc/linux-x86/arm/arm-eabi" remote="ssh" revision="12.0.0" clone-depth="1"  />
+    
+    <!-- KProfiles -->>
+    <project name="CannedShroud/android_packages_apps_KProfiles" path="packages/apps/KProfiles" remote="ssh" revision="main"/>
 
     <!-- Hardware/Xiaomi -->
     <project name="ArrowOS-Devices/android_hardware_xiaomi" path="hardware/xiaomi" remote="ssh" revision="arrow-12.0" />
