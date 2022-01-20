@@ -19,8 +19,8 @@
     <remove-project name="hardware_qcom-caf_sm8250_display" />
     <remove-project name="hardware_qcom-caf_sm8250_media" />
     <remove-project name="hardware_qcom-caf_sm8250_audio" />
-    <project path="hardware/qcom-caf/sm8250/audio" name="ArrowOS/android_hardware_qcom_audio" remote="github" revision="arrow-12.0-caf-sm8250" />
-    <project path="hardware/qcom-caf/sm8250/display" name="ArrowOS/android_hardware_qcom_display" remote="github" revision="arrow-12.0-caf-sm8250"  />
-    <project path="hardware/qcom-caf/sm8250/media" name="ArrowOS/android_hardware_qcom_media" remote="github" revision="arrow-12.0-caf-sm8250"  /> 
-    <project path="hardware/xiaomi" name="PocoF3-Spanish-Development/hardware_xiaomi" remote="github" revision="12"  />     
+    <project path="hardware/qcom-caf/sm8250/audio" name="PixelExperience/hardware_qcom-caf_sm8250_audio" remote="github" revision="twelve" />
+    <project path="hardware/qcom-caf/sm8250/display" name="PixelExperience/hardware_qcom-caf_sm8250_display" remote="github" revision="twelve"  />
+    <project path="hardware/qcom-caf/sm8250/media" name="PixelExperience/hardware_qcom-caf_sm8250_media" remote="github" revision="twelve"  /> 
+    <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="github" revision="twelve"  />     
 </manifest>
