@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Device Specific Trees-->
+<project name="PixelOS-Devices/device_xiaomi_lisa" path="device/xiaomi/lisa" remote="github" revision="twelve" />
+<project name="PixelOS-Devices/vendor_xiaomi_lisa" path="vendor/xiaomi/lisa" remote="github" revision="twelve" />
+<project name="ganeshi4u/android_device_xiaomi_lisa-prebuilt" path="device/xiaomi/lisa-prebuilt" remote="gitlab" revision="arrow-11.0" />
+
+<!-- Misc. Repos-->
+<project name="Demon000/kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350" remote="github" revision="lineage-18.1" clone-depth="1" />
+<project name="ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt" path="packages/apps/GCamGOPrebuilt" remote="github" revision="arrow-12.0" />
+
+</manifest>
