@@ -7,7 +7,7 @@
     <project name="PixelOS-Devices/device_xiaomi_sweet" path="device/xiaomi/sweet" remote="github" revision="twelve" />
 
     <!-- Vendor trees -->
-    <project name="PixelOS-Devices/vendor_xiaomi_sweet" path="vendor/xiaomi/sweet" remote="github" revision="twelve" />
+    <project name="PixelOS-Devices/vendor_xiaomi_sweet" path="vendor/xiaomi/sweet" remote="github" revision="staging/twelve" />
 
     <!-- Kernel tree and Clang -->
     <project name="PixelOS-Devices/kernel_xiaomi_sm6150-priv" path="kernel/xiaomi/sweet" remote="ssh" revision="courbet" clone-depth="1" />
