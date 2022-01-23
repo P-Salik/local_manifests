@@ -10,6 +10,7 @@
     <!-- Vendor trees -->
     <project name="PixelOS-Devices/vendor_xiaomi_mojito" path="vendor/xiaomi/mojito" remote="ssh" revision="twelve" />
     <project name="PixelOS-Devices/vendor_xiaomi_sm6150-common" path="vendor/xiaomi/sm6150-common" remote="ssh" revision="twelve" />
+    <project name="PixelOS-Devices/vendor_xiaomi_ANXCamera" path="vendor/xiaomi/ANXCamera" remote="ssh" revision="185R" />
 
     <!-- Kernel tree -->
     <project name="PixelOS-Devices/android_kernel_xiaomi_mojito" path="kernel/xiaomi/sm6150" remote="github" revision="twelve-vbswap" clone-depth="1" />
