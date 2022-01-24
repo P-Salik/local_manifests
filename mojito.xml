@@ -19,11 +19,7 @@
     
     <!-- KProfiles -->>
     <project name="CannedShroud/android_packages_apps_KProfiles" path="packages/apps/KProfiles" remote="ssh" revision="main"/>
-    
-    <!-- Lineage OS settings resources -->
-    <remove-project name="packages_resources_devicesettings" />
-    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-19.0" />
-    
+  
     <!-- Hardware/Xiaomi -->
     <project name="ArrowOS-Devices/android_hardware_xiaomi" path="hardware/xiaomi" remote="ssh" revision="arrow-12.0" />
 
