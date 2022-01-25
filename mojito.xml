@@ -25,6 +25,6 @@
     
      <!-- Settings  -->
     <remove-project name="packages_apps_Settings" />
-    <project name="dsashwin/packages_apps_Settings-1" path="packages/resources/devicesettings" remote="github" revision="twelve" />
+    <project name="dsashwin/packages_apps_Settings-1" path="packages/apps/Settings" remote="github" revision="twelve" />
 
 </manifest>
