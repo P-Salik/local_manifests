@@ -5,7 +5,7 @@
 
     <!-- Device trees -->
     <project name="PixelOS-Devices/device_xiaomi_mojito" path="device/xiaomi/mojito" remote="ssh" revision="twelve" />
-    <project name="PixelOS-Devices/device_xiaomi_sm6150-common" path="device/xiaomi/sm6150-common" remote="ssh" revision="twelve-new" />
+    <project name="PixelOS-Devices/device_xiaomi_sm6150-common" path="device/xiaomi/sm6150-common" remote="ssh" revision="twelve" />
 
     <!-- Vendor trees -->
     <project name="PixelOS-Devices/vendor_xiaomi_mojito" path="vendor/xiaomi/mojito" remote="ssh" revision="twelve" />
