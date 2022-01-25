@@ -23,8 +23,8 @@
     <!-- Updater -->
     <project name="dsashwin/packages_apps_Updates-1" path="packages/apps/Updates" remote="ssh" revision="twelve" />
     
-     <!--  Device Settings  -->
-    <remove-project name="packages_resources_devicesettings" />
-    <project name="PixelExperience/packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="twelve" />
+     <!-- Settings  -->
+    <remove-project name="packages_apps_Settings" />
+    <project name="dsashwin/packages_apps_Settings-1" path="packages/resources/devicesettings" remote="github" revision="twelve" />
 
 </manifest>
