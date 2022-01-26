@@ -11,10 +11,6 @@
     <!-- Kernel tree -->
     <project name="GZR-Kernels/Optimus_Drunk_Alioth" path="kernel/xiaomi/sm8250" remote="github" revision="11.0" clone-depth="1"  />
     
-    <!--  Device Settings  -->
-    <remove-project name="packages_resources_devicesettings" />
-    <project name="PixelOS-Devices/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-18.1" />
-    
      <!-- Custom Repos -->
     <remove-project name="hardware_qcom-caf_sm8250_display" />
     <remove-project name="hardware_qcom-caf_sm8250_media" />
