@@ -9,8 +9,8 @@
     <project name="PixelOS-Devices/device_xiaomi_sm6150-common" path="device/xiaomi/sm6150-common" remote="ssh" revision="twelve" />
 
     <!-- Vendor trees -->
-    <project name="PixelOS-Pixelish/vendor_xiaomi_mojito" path="vendor/xiaomi/mojito" remote="ssh" revision="twelve" />
-    <project name="PixelOS-Pixelish/vendor_xiaomi_sm6150-common" path="vendor/xiaomi/sm6150-common" remote="ssh" revision="twelve" />
+    <project name="PixelOS-Pixelish/vendor_xiaomi_mojito" path="vendor/xiaomi/mojito" remote="gitlab_ssh" revision="twelve" />
+    <project name="PixelOS-Pixelish/vendor_xiaomi_sm6150-common" path="vendor/xiaomi/sm6150-common" remote="gitlab_ssh" revision="twelve" />
 
     <!-- Kernel tree -->
     <project name="PixelOS-Devices/kernel_xiaomi_mojito" path="kernel/xiaomi/sm6150" remote="github" revision="staging" clone-depth="1" />
