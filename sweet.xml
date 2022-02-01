@@ -4,7 +4,7 @@
     <remote  name="ssh" fetch="ssh://git@github.com" />
     
     <!-- Device trees -->
-    <project name="PixelOS-Devices/device_xiaomi_sweet" path="device/xiaomi/sweet" remote="github" revision="twelve" />
+    <project name="PixelOS-Devices/device_xiaomi_sweet" path="device/xiaomi/sweet" remote="github" revision="staging/twelve" />
 
     <!-- Vendor trees -->
     <project name="PixelOS-Devices/vendor_xiaomi_sweet" path="vendor/xiaomi/sweet" remote="github" revision="twelve" />
