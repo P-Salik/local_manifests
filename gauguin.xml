@@ -7,7 +7,7 @@
     <project name="PixelOS-Devices/vendor_xiaomi_gauguin" path="vendor/xiaomi/gauguin" remote="github" revision="twelve" />
 
     <!-- Kernel tree -->
-    <project name="itsmethekid/kernel_xiaomi_gauguin" path="kernel/xiaomi/gauguin" remote="github" revision="test" clone-depth="1" />
+    <project name="LineageOS/android_kernel_xiaomi_gauguin" path="kernel/xiaomi/gauguin" remote="github" revision="lineage-18.1" clone-depth="1" />
     
     <!-- Custom Repos -->
     <project name="ArrowOS-Devices/android_device_xiaomi_extras" path="device/xiaomi/extras" remote="github" revision="arrow-12.0" />
