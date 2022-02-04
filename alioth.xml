@@ -2,11 +2,12 @@
 <manifest>
     <!-- Device trees -->
     <project name="PixelOS-Devices/device_xiaomi_alioth" path="device/xiaomi/alioth" remote="github" revision="twelve" />
-    
     <project name="PixelOS-Devices/device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="github" revision="twelve" />
 
     <!-- Vendor trees -->
-    <project name="cristianvaz/vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="twelve" />
+    <project name="cristianvaz/vendor_xiaomi_alioth" path="vendor/xiaomi/alioth" remote="github" revision="twelve" />
+    <project name="cristianvaz/vendor_xiaomi_sm8250-common" path="vendor/xiaomi/sm8250-common" remote="github" revision="twelve" />
+
 
     <!-- Kernel tree -->
     <project name="GZR-Kernels/Optimus_Drunk_Alioth" path="kernel/xiaomi/sm8250" remote="github" revision="11.0" clone-depth="1"  />
