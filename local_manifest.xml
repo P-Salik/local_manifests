@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+ <remote name="ssh" 
+         fetch="ssh://git@github.com" />
+ <remote name="gitlab_ssh" 
+         fetch="ssh://git@gitlab.com" />
+
+ <!-- Removals -->
+ <remove-project name="hardware_qcom-caf_sdm845_audio" />
+ <remove-project name="hardware_qcom-caf_sdm845_display" />
+ <remove-project name="hardware_qcom-caf_sdm845_media" />
+ <remove-project name="packages_resources_devicesettings" />
+
+ <!-- Trees -->
+  
+ <!-- Device Tree -->
+ <project path="device/xiaomi/beryllium" 
+          name="PixelOS-Devices/device_xiaomi_beryllium" 
+          remote="ssh"
+          revision="twelve" />
+ <!-- Common Tree -->
+ <project path="device/xiaomi/sdm845-common" 
+          name="PixelOS-Devices/device_xiaomi_sdm845-common" 
+          remote="ssh"
+          revision="twelve" />
+ <!-- Vendor Tree -->
+ <project path="vendor/xiaomi" 
+          name="PainKiller3/vendor_xiaomi.git" 
+          remote="ssh"
+          revision="twelve" />
+ <!-- Kernel Tree -->
+ <project path="kernel/xiaomi/sdm845" 
+          name="PainKiller3/kernel_xiaomi_sdm845.git" 
+          remote="ssh" 
+          revision="twelve" />
+ <!-- HW Tree -->
+ <project path="hardware/xiaomi" 
+          name="ArrowOS-Devices/android_hardware_xiaomi" 
+          remote="ssh"
+          revision="arrow-12.0" />
+
+ <!-- HALS -->
+ <project path="hardware/qcom-caf/sdm845/media" 
+          name="aex-tmp/platform_hardware_qcom_media" 
+          remote="ssh"
+          revision="12.x-caf-sdm845" />
+ <project path="hardware/qcom-caf/sdm845/display" 
+          name="aex-tmp/platform_hardware_qcom_display" 
+          remote="ssh"
+          revision="12.x-caf-sdm845" />
+ <project path="hardware/qcom-caf/sdm845/audio" 
+          name="aex-tmp/platform_hardware_qcom_audio" 
+          remote="ssh"
+          revision="12.x-caf-sdm845" />
+
+ <!-- Toolchain -->
+ <project path="prebuilts/clang/host/linux-x86/clang-custom" 
+          name="varunhardgamer/trb_clang" 
+          remote="gitlab_ssh"
+          revision="14"
+          clone-depth="1" />
+
+ <!-- Device settings -->
+ <project path="packages/resources/devicesettings" 
+          name="LineageOS/android_packages_resources_devicesettings"
+          remote="ssh" 
+          revision="lineage-19.0" />    
+        
+</manifest>
