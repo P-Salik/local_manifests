@@ -12,7 +12,7 @@ cd -
 # Experiments
 cd packages/apps/Settings
 git fetch https://github.com/cArN4gEisDeD/packages_apps_Settings
-git cherry-pick e730400a3fdfe1c79f7c13726a913f07615daca5
+git cherry-pick e730400a3fdfe1c79f7c13726a913f07615daca5 0a278ce1c8ec7e6ea9184f5218a506604fbf7519
 cd -
 
 cd frameworks/base
