@@ -23,5 +23,9 @@
     <!-- Fork of FW/base -->
     <remove-project name="frameworks_base" />
     <project path="frameworks/base" name="PixelOS-Gitlab/frameworks_base" remote="gitlab_ssh" revision="staging/twelve" />
+
+    <!-- Fork of Settings -->
+    <remove-project name="packages_apps_Settings" />
+    <project path="packages/apps/Settings" name="PixelOS-Gitlab/packages_apps_Settings" remote="gitlab_ssh" revision="staging/twelve" />
     
 </manifest>
