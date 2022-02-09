@@ -11,3 +11,4 @@
 | sweet | Redmi Note 10 Pro | Android 12 | [sweet-s](https://github.com/PixelOS-Devices/local_manifests/tree/sweet-s) |
 | vayu/bhima | Poco X3 Pro | Android 12 | [vayu-s](https://github.com/PixelOS-Devices/local_manifests/tree/vayu-s) |
 | violet | Redmi Note 7 Pro | Android 12 | [violet-s](https://github.com/PixelOS-Devices/local_manifests/tree/violet-s) |
+| RMX1941 | Realme C2 | Android 12 | [RMX1941-s](https://github.com/PixelOS-Devices/local_manifests/tree/RMX1941-s) |
