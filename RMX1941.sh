@@ -12,12 +12,12 @@ cd -
 # Experiments
 cd packages/apps/Settings
 git fetch https://github.com/cArN4gEisDeD/packages_apps_Settings
-git cherry-pick e730400a3fdfe1c79f7c13726a913f07615daca5 0a278ce1c8ec7e6ea9184f5218a506604fbf7519
+git cherry-pick 8c5b2715ed32c32268d2d2cd14166ce9191e4d68
 cd -
 
 cd frameworks/base
 git fetch https://github.com/cArN4gEisDeD/frameworks_base
-git cherry-pick 956bcec8a12d0a1781f1286ede7d94769dee578d^..ad7d21fb29473209d5765c209a67348fa384d949
+git cherry-pick 8a4cb9e1cd1e759f94eed6a2c3ecb0b974fc0a71
 cd -
 
 # Brightness Patch 
