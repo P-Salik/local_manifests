@@ -9,17 +9,6 @@ git fetch https://github.com/phhusson/platform_frameworks_opt_telephony
 git cherry-pick 6f116d4cdb716072261ecfe532da527182f6dad6 
 cd -
 
-# Experiments
-cd packages/apps/Settings
-git fetch https://github.com/cArN4gEisDeD/packages_apps_Settings
-git cherry-pick 8c5b2715ed32c32268d2d2cd14166ce9191e4d68
-cd -
-
-cd frameworks/base
-git fetch https://github.com/cArN4gEisDeD/frameworks_base
-git cherry-pick 8a4cb9e1cd1e759f94eed6a2c3ecb0b974fc0a71
-cd -
-
 # Brightness Patch 
 cd frameworks/base 
 wget https://raw.githubusercontent.com/sarthakroy2002/random-stuff/main/Patches/0001-brightness-curve.patch 
