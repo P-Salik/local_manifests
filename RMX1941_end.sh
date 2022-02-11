@@ -1,3 +1,4 @@
+rm -rf dump
 rm -rf packages/modules/Wifi
 rm -rf frameworks/base
 rm -rf frameworks/opt/telephony
