@@ -1,3 +1,9 @@
+# Vendor Extraction
+cd device/realme/RMX1941
+./setup-makefiles.sh
+./extract-files.sh ../../../dump
+cd -
+
 # IMS Patches
 cd packages/modules/Wifi 
 git fetch https://github.com/AOSP-12-RMX2020/packages_modules_Wifi
