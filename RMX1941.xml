@@ -4,20 +4,18 @@
         <!-- Device trees -->
 
         <remote name="main"
-                fetch="https://github.com/cArN4gEisDeD" />
+                fetch="https://github.com/P-Salik" />
 
-        <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="main" revision="twelve" clone-depth="1" />
-        <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="main" revision="twelve" clone-depth="1" />
+        <project path="device/realme/RMX1941" name="device_realme_RMX1941" remote="main" revision="pixel" clone-depth="1" />
 
         <!-- IMS repo -->
         <project path="vendor/realme/RMX1941-ims" name="android_vendor_realme_RMX1941-ims" remote="main" revision="twelve" clone-depth="1" />
 
+        <!-- Dump -->
+        <project path="dump" name="realme_RMX1941_dump" remote="main" revision="C57" clone-depth="1" />
+
         <!-- Kernel tree -->
-
-        <remote name="kernel"
-                fetch="https://github.com/P-Salik" />
-
-        <project path="kernel/realme/RMX1941" name="android_kernel_realme_karashi" remote="kernel" revision="android-10.0" clone-depth="1" />
+        <project path="kernel/realme/RMX1941" name="android_kernel_realme_karashi" remote="main" revision="android-10.0" clone-depth="1" />
 
         <!-- Parts -->
         <remote name="parts"
